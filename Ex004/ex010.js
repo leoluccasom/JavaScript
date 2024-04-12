@@ -8,11 +8,25 @@ function parimp(n){
     }
 }
 console.log(parimp(112))
-
+/////////////////////////////////////
 
 
 function soma(n1=0,n2=0){
+    return n1 + n2              
+}
+//////////////////////////////////
+console.log(soma(2,5))          //somar colocando o paramentro no console
+
+function soma1(n1=5,n2=5){
     return n1 + n2
 }
+console.log(soma1())    //somar colocando o paramentro no atributo
+/////////////////////////////////
+let n1 = 2
+let n2 = 10
 
-console.log(soma(2,5))
+function somar() {
+    return n1 + n2
+}
+console.log(somar())            //somar criando uma variavel
+

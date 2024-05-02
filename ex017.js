@@ -1,9 +1,5 @@
-let c = 0
-
-function Func(){
-
-    for (c; c <= 10; c++){
-        console.log(c)
+for (let num = 0; num <= 100; num++){
+    if(num % 2 === 0){
+        console.log(num)
     }
 }
-Func()
